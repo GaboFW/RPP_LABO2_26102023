@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj": {}
+    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj": {
+    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj",
-        "projectName": "Gabriel Fernandez Waisberg 2C",
-        "projectPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj",
+        "projectUniqueName": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
-        "outputPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\obj\\",
+        "outputPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -53,9 +53,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"

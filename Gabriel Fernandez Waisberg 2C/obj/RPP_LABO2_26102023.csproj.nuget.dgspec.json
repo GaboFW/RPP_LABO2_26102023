@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj": {}
+    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\RPP_LABO2_26102023.csproj": {}
   },
   "projects": {
-    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj": {
+    "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\RPP_LABO2_26102023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj",
-        "projectName": "Gabriel Fernandez Waisberg 2C",
-        "projectPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C.csproj",
+        "projectUniqueName": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\RPP_LABO2_26102023.csproj",
+        "projectName": "RPP_LABO2_26102023",
+        "projectPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\RPP_LABO2_26102023.csproj",
         "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
         "outputPath": "F:\\ProgramData\\Microsoft\\VisualStudio\\Repos\\RPP_LABO2_26102023\\Gabriel Fernandez Waisberg 2C\\Gabriel Fernandez Waisberg 2C\\obj\\",
         "projectStyle": "PackageReference",

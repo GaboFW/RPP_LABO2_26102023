@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gabriel Fernandez Waisberg 2C", "Gabriel Fernandez Waisberg 2C\Gabriel Fernandez Waisberg 2C.csproj", "{5AF24B7D-2911-4F11-8637-7825D4A15660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPP_LABO2_26102023", "Gabriel Fernandez Waisberg 2C\RPP_LABO2_26102023.csproj", "{5AF24B7D-2911-4F11-8637-7825D4A15660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{0A9E8E93-EC57-4204-B6C1-63A1451C3918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5AF24B7D-2911-4F11-8637-7825D4A15660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF24B7D-2911-4F11-8637-7825D4A15660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF24B7D-2911-4F11-8637-7825D4A15660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9E8E93-EC57-4204-B6C1-63A1451C3918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9E8E93-EC57-4204-B6C1-63A1451C3918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9E8E93-EC57-4204-B6C1-63A1451C3918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9E8E93-EC57-4204-B6C1-63A1451C3918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
