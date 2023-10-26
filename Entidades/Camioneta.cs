@@ -2,7 +2,7 @@
 
 namespace Entidades
 {
-    abstract class Camioneta : Vehiculo
+    public class Camioneta : Vehiculo
     {
         private bool cabinaSimple;
 
@@ -24,7 +24,7 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Tipo: {this.Tipo}, Propulsion: {this.propulsion}"); //FALTA LA CABINA
+            sb.AppendLine($"Tipo: {this.Tipo}, Propulsion: {this.propulsion}, Cabina: {this.cabinaSimple}");
 
             return sb.ToString();
         }

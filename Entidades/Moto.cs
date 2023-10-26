@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    abstract class Moto : Vehiculo
+    public class Moto : Vehiculo
     {
         public Moto (EPropulsion propulsion) 
             : base (propulsion)

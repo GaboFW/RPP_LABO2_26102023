@@ -29,40 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            comboBox1 = new ComboBox();
-            txtVehiculo = new Label();
-            pictureBox1 = new PictureBox();
+            cmbTipoVehiculo = new ComboBox();
+            lblTipo = new Label();
+            pcbFabrica = new PictureBox();
             btnFabricar = new Button();
             btnEliminar = new Button();
             lstVehiculos = new ListBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbFabrica).BeginInit();
             SuspendLayout();
             // 
-            // comboBox1
+            // cmbTipoVehiculo
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(651, 50);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(118, 23);
-            comboBox1.TabIndex = 0;
+            cmbTipoVehiculo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipoVehiculo.FormattingEnabled = true;
+            cmbTipoVehiculo.Location = new Point(651, 50);
+            cmbTipoVehiculo.Name = "cmbTipoVehiculo";
+            cmbTipoVehiculo.Size = new Size(118, 23);
+            cmbTipoVehiculo.TabIndex = 0;
             // 
-            // txtVehiculo
+            // lblTipo
             // 
-            txtVehiculo.AutoSize = true;
-            txtVehiculo.Location = new Point(651, 32);
-            txtVehiculo.Name = "txtVehiculo";
-            txtVehiculo.Size = new Size(55, 15);
-            txtVehiculo.TabIndex = 1;
-            txtVehiculo.Text = "Vehiculo:";
+            lblTipo.AutoSize = true;
+            lblTipo.Location = new Point(651, 32);
+            lblTipo.Name = "lblTipo";
+            lblTipo.Size = new Size(55, 15);
+            lblTipo.TabIndex = 1;
+            lblTipo.Text = "Vehiculo:";
             // 
-            // pictureBox1
+            // pcbFabrica
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(674, 95);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(58, 72);
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
+            pcbFabrica.Image = (Image)resources.GetObject("pcbFabrica.Image");
+            pcbFabrica.Location = new Point(674, 95);
+            pcbFabrica.Name = "pcbFabrica";
+            pcbFabrica.Size = new Size(58, 72);
+            pcbFabrica.TabIndex = 2;
+            pcbFabrica.TabStop = false;
             // 
             // btnFabricar
             // 
@@ -72,6 +73,7 @@
             btnFabricar.TabIndex = 3;
             btnFabricar.Text = "Fabricar";
             btnFabricar.UseVisualStyleBackColor = true;
+            btnFabricar.Click += btnFabricar_Click;
             // 
             // btnEliminar
             // 
@@ -81,10 +83,12 @@
             btnEliminar.TabIndex = 4;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // lstVehiculos
             // 
             lstVehiculos.FormattingEnabled = true;
+            lstVehiculos.HorizontalScrollbar = true;
             lstVehiculos.ItemHeight = 15;
             lstVehiculos.Location = new Point(12, 17);
             lstVehiculos.Name = "lstVehiculos";
@@ -99,23 +103,24 @@
             Controls.Add(lstVehiculos);
             Controls.Add(btnEliminar);
             Controls.Add(btnFabricar);
-            Controls.Add(pictureBox1);
-            Controls.Add(txtVehiculo);
-            Controls.Add(comboBox1);
+            Controls.Add(pcbFabrica);
+            Controls.Add(lblTipo);
+            Controls.Add(cmbTipoVehiculo);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Fabrica de Vehiculos";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbFabrica).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ComboBox comboBox1;
-        private Label txtVehiculo;
-        private PictureBox pictureBox1;
+        private ComboBox cmbTipoVehiculo;
+        private Label lblTipo;
+        private PictureBox pcbFabrica;
         private Button btnFabricar;
         private Button btnEliminar;
         private ListBox lstVehiculos;

@@ -2,14 +2,14 @@
 {
     public enum EPropulsion { Combustion, Hibrida, Electrica}
 
-    abstract class Vehiculo
+    public class Vehiculo
     {
         protected bool esAWD;
         protected Guid numeroDeChasis;
         protected EPropulsion propulsion;
 
         public EPropulsion Propulsion { get { return propulsion; } }
-        
+
         protected Vehiculo(EPropulsion propulsion)
             : this(propulsion, false)
         {
@@ -23,7 +23,7 @@
             this.numeroDeChasis = Guid.NewGuid();
         }
 
-        protected abstract string Tipo {  get; }
+        protected string Tipo { get; } 
 
         protected virtual string GetInfo()
         {

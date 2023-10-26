@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class Fabrica
+    public class Fabrica
     {
         private int capacidad;
         private List<Vehiculo> vehiculos;
@@ -17,6 +17,7 @@ namespace Entidades
         }
 
         public Fabrica(int capacidad)
+            : this()
         {
             this.capacidad = capacidad;
         }
@@ -31,14 +32,14 @@ namespace Entidades
 
         public static Fabrica operator +(Fabrica fabrica, Vehiculo vehiculo)
         {
-            if(fabrica.Vehiculos.Count < fabrica.capacidad)
+            if (fabrica.vehiculos.Count < fabrica.capacidad)
             {
-                fabrica.Vehiculos.Add(vehiculo);
+                fabrica.vehiculos.Add(vehiculo);
             }
 
             return fabrica;
         }
-        
+
         public static Fabrica operator -(Fabrica fabrica, Vehiculo vehiculo)
         {
             foreach (Vehiculo vehiculo1 in fabrica.vehiculos)

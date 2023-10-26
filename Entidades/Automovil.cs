@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    abstract class Automovil : Vehiculo
+    public class Automovil : Vehiculo
     {
         public Automovil()
             : base(EPropulsion.Hibrida)
