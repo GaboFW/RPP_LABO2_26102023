@@ -1,4 +1,6 @@
-﻿namespace Entidades
+﻿using System.Text;
+
+namespace Entidades
 {
     public enum EPropulsion { Combustion, Hibrida, Electrica}
 
@@ -27,7 +29,11 @@
 
         protected virtual string GetInfo()
         {
-            return "";
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Tipo: {this.Tipo}, Propulsion: {this.propulsion}");
+
+            return sb.ToString();
         }
 
         public override string ToString()

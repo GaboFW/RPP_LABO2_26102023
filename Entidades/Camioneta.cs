@@ -24,7 +24,8 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Tipo: {this.Tipo}, Propulsion: {this.propulsion}, Cabina: {this.cabinaSimple}");
+            sb.Append(base.GetInfo());
+            sb.Append($", Cabina: {this.cabinaSimple}");
 
             return sb.ToString();
         }

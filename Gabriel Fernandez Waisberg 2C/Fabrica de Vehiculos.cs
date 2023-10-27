@@ -25,12 +25,13 @@ namespace Gabriel_Fernandez_Waisberg_2C
         
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (lstVehiculos.SelectedItems.Count > 0)
+            if (lstVehiculos.SelectedIndex >= 0)
             {
-                Vehiculo vehiculoAEliminar = fabrica.Vehiculos[(int)lstVehiculos.SelectedItem];
+                Vehiculo vehiculoAEliminar = fabrica.Vehiculos[(int)lstVehiculos.SelectedIndex];
                 this.fabrica -= vehiculoAEliminar;
-                Refrescar();
             }
+            
+            Refrescar();
         }
 
         private void btnFabricar_Click(object sender, EventArgs e)

@@ -44,9 +44,10 @@ namespace Entidades
         {
             foreach (Vehiculo vehiculo1 in fabrica.vehiculos)
             {
-                if (vehiculo1 == vehiculo)
+                if (vehiculo == vehiculo1)
                 {
                     fabrica.vehiculos.Remove(vehiculo1);
+                    break;
                 }
             }
 
