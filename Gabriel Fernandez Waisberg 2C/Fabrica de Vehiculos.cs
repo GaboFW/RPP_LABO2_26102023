@@ -22,13 +22,14 @@ namespace Gabriel_Fernandez_Waisberg_2C
         {
             this.cmbTipoVehiculo.DataSource = new object[] { "Automovil", "Camioneta", "Moto" };
         }
-
+        
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (lstVehiculos.SelectedItems.Count > 0)
             {
-                Vehiculo vehiculoAEliminar = (Vehiculo)lstVehiculos.SelectedItem;
-                lstVehiculos.Items.Remove(vehiculoAEliminar);
+                Vehiculo vehiculoAEliminar = fabrica.Vehiculos[(int)lstVehiculos.SelectedItem];
+                this.fabrica -= vehiculoAEliminar;
+                Refrescar();
             }
         }
 
