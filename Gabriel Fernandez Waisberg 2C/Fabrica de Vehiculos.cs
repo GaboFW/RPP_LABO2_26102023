@@ -35,8 +35,8 @@ namespace Gabriel_Fernandez_Waisberg_2C
         private void btnFabricar_Click(object sender, EventArgs e)
         {
             Vehiculo crear = CrearVehiculo();
-
             this.fabrica += crear;
+            Refrescar();
         }
         
         private Vehiculo CrearVehiculo()

@@ -15,7 +15,7 @@ namespace Entidades
         }
 
         protected override string Tipo
-        {
+        { 
             get
             {
                 return "Moto";
