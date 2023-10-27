@@ -34,7 +34,9 @@ namespace Gabriel_Fernandez_Waisberg_2C
 
         private void btnFabricar_Click(object sender, EventArgs e)
         {
-            
+            Vehiculo crear = CrearVehiculo();
+
+            this.fabrica += crear;
         }
         
         private Vehiculo CrearVehiculo()
@@ -43,12 +45,10 @@ namespace Gabriel_Fernandez_Waisberg_2C
             {
                 case 0:
                     return new Automovil();
-                    break;
                 case 1:
                     return new Camioneta(EPropulsion.Hibrida, false);
-                    break;
                 default:
-                    return new Moto(EPropulsion.Electrica);
+                    return new Moto(EPropulsion.Combustion);
             }
         }
 
@@ -60,7 +60,7 @@ namespace Gabriel_Fernandez_Waisberg_2C
         private void Refrescar()
         {
             this.lstVehiculos.Text = null;
-            this.lstVehiculos.DataSource = 
+            this.lstVehiculos.DataSource = fabrica.Vehiculos;
         }
     }
 }

@@ -23,7 +23,7 @@
             this.numeroDeChasis = Guid.NewGuid();
         }
 
-        protected string Tipo { get; } 
+        protected virtual string Tipo { get; } 
 
         protected virtual string GetInfo()
         {
