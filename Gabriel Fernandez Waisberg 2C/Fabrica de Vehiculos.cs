@@ -28,7 +28,7 @@ namespace Gabriel_Fernandez_Waisberg_2C
             if (lstVehiculos.SelectedItems.Count > 0)
             {
                 Vehiculo vehiculoAEliminar = (Vehiculo)lstVehiculos.SelectedItem;
-                lstVehiculos.Items.Clear();
+                lstVehiculos.Items.Remove(vehiculoAEliminar);
             }
         }
 
@@ -38,7 +38,7 @@ namespace Gabriel_Fernandez_Waisberg_2C
             this.fabrica += crear;
             Refrescar();
         }
-        
+
         private Vehiculo CrearVehiculo()
         {
             switch (this.cmbTipoVehiculo.SelectedIndex)
@@ -59,7 +59,7 @@ namespace Gabriel_Fernandez_Waisberg_2C
 
         private void Refrescar()
         {
-            this.lstVehiculos.Text = null;
+            this.lstVehiculos.DataSource = null;
             this.lstVehiculos.DataSource = fabrica.Vehiculos;
         }
     }
