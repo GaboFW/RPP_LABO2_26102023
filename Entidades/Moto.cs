@@ -21,5 +21,14 @@ namespace Entidades
                 return "Moto";
             }
         }
+
+        protected override string GetInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Tipo: {this.Tipo}, Propulsion: {this.propulsion}");
+
+            return sb.ToString();
+        }
     }
 }
